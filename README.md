@@ -1,23 +1,29 @@
-# Anant Sharma — Product Owner portfolio
+# Anant Sharma — Product Owner & AI Product Portfolio
 
-A responsive single-page portfolio inspired by the supplied dark, editorial portfolio screenshot, adapted for a Product Owner / Digital Product Management profile.
+Responsive single-page GitHub Pages portfolio. Built with plain HTML, CSS and JavaScript; no build tools required.
 
 ## Files
-- `index.html` — page content and sections
-- `style.css` — responsive visual design
-- `script.js` — horizontal card controls
+- `index.html` — page content, navigation, interactive skill cards and contact form
+- `style.css` — responsive styling and animations
+- `script.js` — accessible page interactions and horizontal card controls
+- `assets/portfolio-qr.png` — QR code linking to the live portfolio URL
+- `assets/portrait-placeholder.svg` — temporary grayscale portrait placeholder
 
-## Before publishing
-1. Confirm the name, experience duration, location and employment details.
-2. Replace the LinkedIn URL and `your.email@example.com`.
-3. Add verified dates, courses and certifications.
-4. Replace illustrative case-study content with approved, non-confidential examples and measurable outcomes.
-5. If you want a real portrait, replace the abstract `AS` hero panel with your own professional photo.
+## Publish to GitHub Pages
+1. Download and extract the ZIP.
+2. Open the repository `anantvashishtha/anantsharma.github.io`.
+3. Upload/replace `index.html`, `style.css`, `script.js`, `README.md` and the complete `assets` folder in the repository root.
+4. Commit the changes and wait for GitHub Pages to deploy.
 
-## Publish free with GitHub Pages
-1. Sign in at https://github.com and create a repository named `yourusername.github.io`.
-2. Upload `index.html`, `style.css`, `script.js` and `README.md` to the repository root.
-3. Open **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
-4. Your site should become available at `https://yourusername.github.io` after GitHub finishes deploying.
+## Important setup before/after publishing
+### Add your actual portrait
+The hero currently expects `assets/anant-portrait.jpg`. Add a professional headshot with that exact filename. It will be displayed in grayscale. Until then, the initials/placeholder are shown.
 
-This is a static website and does not need a server or build step.
+### Activate contact form delivery
+The form posts to FormSubmit (`https://formsubmit.co/anantkumar792@gmail.com`). On the first test submission, FormSubmit may send an activation email to this mailbox. Open that email and confirm the activation link. After activation, test the form again. FormSubmit is a third-party service; review its privacy terms before using it for visitor data. If you prefer a different form provider, replace the form endpoint with your provider's endpoint.
+
+### QR code
+The QR image points to `https://anantvashishtha.github.io/anantsharma.github.io/`. If the repository URL changes, regenerate `assets/portfolio-qr.png`.
+
+### Content accuracy
+Confirm experience duration, role titles, dates, certifications and project claims before publishing. Keep ADX/client details and case-study information within your employer/client disclosure rules. Skill descriptions are written as capability statements; retain only skills you can confidently discuss.
